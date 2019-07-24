@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+header {
+  padding: 150px;
+}
+
+section {
+  padding: 100px;
+  background-color: #999;
+}
+
+section:nth-child(even) {
+  background-color: #ccc;
+}
+
+nav {
+  padding: 15px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+#indy {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+}
+
+.contact-icon {
+  height: 25%;
+  width: 25%;
+}
