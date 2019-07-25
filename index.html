@@ -6,27 +6,54 @@
   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Chivo|Overpass&display=swap" rel="stylesheet">
   <title>Maya Bowman</title>
 </head>
 <body>
   <main>
-    <nav role="navigation">Nav</nav>
+    <nav id="nav-bar" role="navigation">
+      <ul>
+        <li class="nav-li">Email &nbsp<span class="keep-white">|</span></li>
+        <li class="nav-li">GitHub &nbsp<span class="keep-white">|</span></li>
+        <li class="nav-li">LinkedIn &nbsp<span class="keep-white">|</span></li>
+        <li class="nav-li">Twitter</li>
+      </ul>
+    </nav>
     <header role="banner">
-      <h1>Hero</h1>
+      <p>Hi, I'm Maya<span class="keep-green">.</span></p>
+      <h2>I'm a full-stack developer<span class="keep-green">.</span></h2>
     </header>
-    <section>
-      Section 1
+    <!-- <section>
+      <p>Hi, I'm Maya.</p>
+      <h2>I'm a full-stack developer.</h2>
+    </section> -->
+    <section id="bio">
+        <p>I knew I had to become a web developer when I realized it was the happy marriage of my two great loves: precision and creativity. Technicality meets art...now that is what I call bliss.</p>
+        <p>When I'm not coding, I can be found at the piano doing more precise, creative stuff or looking for the best dim sum joint in town.</p>
     </section>
     <section>
-      Project 2
+      <h2 id="work-title">My work<span class="keep-white">.</span></h2>
+      <h3>Indiana Jones Quiz</h3>
+      <img id="indy" src="images/indy-quiz.png">
+      <p>This quiz will test your knowledge of the iconic series and give you feedback on your level of expertise.</p>
+      <p>HTML | CSS | JavaScipt | jQuery</p>
     </section>
-    <section>
-      Project 3
-    </section>
-    <section>
-      Section 4
-    </section>
-    <footer>Footer</footer>
+    <footer>
+      <ul>
+        <li class="contact-icon">
+          <img src="images/email.png">
+        </li>
+        <li class="contact-icon">
+          <img src="images/github.png">
+        </li>
+        <li class="contact-icon">
+            <img src="images/linkedin.png">
+        </li>
+        <li class="contact-icon">
+            <img src="images/twitter.png">
+        </li>
+      </ul>
+    </footer>
   </main>
 </body>
 </html>
