@@ -7,24 +7,33 @@ body {
   text-align: center;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav, footer {
+  padding: 1%;
+  background-color: #999;
+}
+
 header {
-  padding: 150px;
+  padding: 15%;
 }
 
 section {
-  padding: 100px;
+  padding: 12%;
   background-color: #999;
+  min-height: 150px;
 }
 
 section:nth-child(even) {
   background-color: #ccc;
 }
 
-nav {
-  padding: 15px;
-}
-
-ul {
+/* ul {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -40,4 +49,4 @@ ul {
 .contact-icon {
   height: 25%;
   width: 25%;
-}
+} */
