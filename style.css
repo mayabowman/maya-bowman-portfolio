@@ -111,6 +111,11 @@ a:hover {
   cursor: pointer;
 }
 
+#work-button:hover {
+  color: #7CFC00;
+  border: white solid 1px;
+}
+
 #work-title {
   margin-bottom: 20px;
   color: #7CFC00;
