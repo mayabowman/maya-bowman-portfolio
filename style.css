@@ -42,6 +42,10 @@ nav {
 }
 
 footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: #7CFC00;
   padding: 1%;
 }
 
@@ -57,14 +61,13 @@ ul {
 }
 
 a {
+  color: #7CFC00;
   text-decoration: none;
+  cursor: pointer;
 }
 
-footer {  
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  color: #7CFC00;
+a:hover {
+  color: white;
 }
 
 #bio {
@@ -103,7 +106,9 @@ footer {
   background-color: black;
   padding: 3%;
   font-family: 'Chivo', sans-serif;
+  font-size: 1em;
   border: #7CFC00 solid 1px;
+  cursor: pointer;
 }
 
 #work-title {
