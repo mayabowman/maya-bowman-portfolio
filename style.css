@@ -11,12 +11,6 @@ body {
   line-height: 1.5;
 }
 
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-}
 
 nav, footer {
   padding: 1%;
@@ -32,19 +26,20 @@ header {
 }
 
 nav {
-  position: fixed;
+  /* position: fixed; */
   /* display: flex; */
   padding: 1%;
   background-color: black;
   top: 0;
   left: 0;
   right: 0;
+  color: #7CFC00;
 }
 
 footer {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   color: #7CFC00;
   padding: 1%;
 }
@@ -53,12 +48,7 @@ section {
   padding: 12%;
 }
 
-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  list-style: none;
-}
+
 
 a {
   color: #7CFC00;
@@ -81,16 +71,26 @@ a:hover {
 
 #indy {
   display: block;
-  /* margin-right: auto;
-  margin-left: auto; */
+  width: 75%;
   margin-bottom: 15px;
 }
 
-#nav-bar {
+ul {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  color: #7CFC00;
+  justify-content: center;
+  list-style: none;
+  padding-inline-start: 0;
+
+}
+
+.nav-li::after {
+  content: '|';
+  margin: 0 5px;
+}  
+
+.nav-li:last-of-type::after {
+  content: '';
 }
 
 .keep-green {
@@ -124,13 +124,16 @@ a:hover {
 
 @media screen and (min-width: 750px) {
   header {
-    background: url(images/portfolio-pic.jpeg);
+    background: url(images/portfolio-pic-2.jpeg);
     background-repeat: no-repeat;
     background-position-x: 80%;
     font-size: 1.2em;
   }
 
-  .nav-li {
-    margin-right: 20px;
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
   }
+
 }
