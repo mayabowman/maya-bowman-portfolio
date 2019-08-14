@@ -46,7 +46,7 @@ footer {
 }
 
 section {
-  padding: 12%;
+  padding: 10%;
 }
 
 a {
@@ -69,13 +69,16 @@ a:hover {
   margin-bottom: 15px;
 }
 
+#indy-title {
+  margin-top: 75px;
+}
+
 ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
   list-style: none;
   padding-inline-start: 0;
-
 }
 
 .nav-li::after {
