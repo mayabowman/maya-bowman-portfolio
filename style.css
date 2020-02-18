@@ -63,6 +63,11 @@ a:hover {
   font-family: 'Overpass', sans-serif;
 }
 
+.h-line {
+  border: 1px solid #7CFC00;
+  margin-top: 19px;
+}
+
 #indy {
   display: block;
   width: 75%;
